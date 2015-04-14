@@ -9,6 +9,13 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.GenericGenerator;
+
+
+/**
+ * wxpt_test数据库VO
+ * @date Apr 14, 20151:10:22 PM
+ * @author WZC
+ */
 @Entity
 @Table(name = "wxpt_test")
 public class TestVo implements Serializable {

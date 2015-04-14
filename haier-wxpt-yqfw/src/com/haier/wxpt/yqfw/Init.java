@@ -21,13 +21,18 @@ import org.hibernate.cfg.Configuration;
 
 import com.haier.wxpt.yqfw.locale.Locale;
 
+/**
+ * 初始化Class
+ * @date Apr 14, 20151:09:44 PM
+ * @author WZC
+ */
 @SuppressWarnings("deprecation")
 public class Init extends HttpServlet {
 	
 	Logger log = Logger.getLogger(getClass());
 
 	public static final String WWWROOT = "HAIER.WXPT.WWWROOT";
-	public static final String TEMPLATEPATH = "GOLF.TEMPLATE.PATH";
+	public static final String TEMPLATEPATH = "HAIER.WXPT.TEMPLATE.PATH";
 	
 	public static final String JOBNAME = "haier_wxpt_yqfwplugin";
 	

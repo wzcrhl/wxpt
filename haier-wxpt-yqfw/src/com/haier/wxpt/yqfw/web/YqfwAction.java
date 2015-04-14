@@ -21,6 +21,11 @@ import com.haier.wxpt.yqfw.util.MiniTemplator;
 import com.haier.wxpt.yqfw.util.XmlUtil;
 import com.haier.wxpt.yqfw.vo.TestVo;
 
+/**
+ * WebAction
+ * @date Apr 14, 20151:10:38 PM
+ * @author WZC
+ */
 public class YqfwAction extends HttpServlet {
 	static Logger log = Logger.getLogger(YqfwAction.class);
 
