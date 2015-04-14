@@ -1,0 +1,215 @@
+/*
+	页面排版中，对原有bootstrap模板进行覆盖
+ */
+
+.appcenter-tab-content{
+	background-color: #EEEEEE;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.nav-tabs.appcenter-nav>.active>a{
+	background-color: #EEEEEE;
+	border-top: 0;
+	border-bottom: 2px solid #2dc3e8;
+}
+
+.nav-tabs.appcenter-nav>.active>a:hover,.nav-tabs.appcenter-nav>.active>a:focus{
+	background-color: #EEEEEE;
+	border-top: 0;
+	border-bottom: 2px solid #2dc3e8;
+}
+
+.appcenter-new-div{
+	text-align: center;
+}
+
+.appcenter-new-icon{
+	font-size: 55px;
+	color: #2DC3E8;
+}
+
+.appcenter-new-icon:hover,.appcenter-new-icon:active{
+	
+}
+
+.appcenter-search-reminder{
+	text-align: center;
+	margin: 2px 0;
+	display: none;
+}
+.appcenter-search-reminder>font:first-child{
+	color: red;
+}
+
+.appcenter-search-reminder.active{
+	display: block;
+}
+
+.appcenter-content{
+
+}
+
+.appcenter-list-icondiv {
+	text-align: center;
+}
+
+.appcenter-list-icondiv font{
+	color: blue;
+}
+.appcenter-list-icondiv img {
+	width: 100%;
+	height: auto;
+}
+
+.appcenter-list-worddiv{
+	padding: 0;
+}
+.appcenter-list-worddiv-1 font{
+	font-size: 18px;
+}
+
+.appcenter-list-worddiv-3 font{
+	margin: 0 5px;
+	font-weight: bolder;
+}
+.appcenter-star-color{
+	color:#FE9600;
+}
+
+.appcenter-list-ewmdiv{
+	padding: 0;
+}
+.appcenter-list-ewmdiv img{
+	width: 100%;
+	height: auto;
+}
+
+.appcenter-list-platformdiv{
+	line-height: 36px;
+	height: 36px;
+}
+.appcenter-list-platformdiv>div{
+	margin:10px 0;
+}
+.appcenter-list-platformdiv>div>div{
+	border-radius: 2px;
+	background: white;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+	padding-left: 2px;
+}
+
+
+.appcenter-list-platformdiv>div>div>span{
+	font-size: 24px;
+	color: #83AcE5;
+}
+.appcenter-list-platformdiv>div>div>font{
+	font-size: 16px;
+	color: #83ACE5;
+}
+
+.appcenter-list-operdiv>a{
+	display: block;
+	text-decoration: underline;
+	margin: 5px 0;
+}
+
+.appcenter-list-split{
+	background-color: white;
+	height: 5px;
+	margin-top: 30px;
+}
+
+.appcenter-onelist{
+	margin-top: 15px;
+}
+
+.appcenter-carousel{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+
+.appdetails-icondiv{
+	text-align: center;
+}
+.appdetails-icondiv>img{
+	width: 100%;
+	height: auto;
+}
+.appdetails-titlediv{
+
+}
+
+.appdetails-titlediv>table{
+	width:100%;
+}
+.appdetails-titlediv>table>tbody>tr{
+	line-height: 24px;
+	height: 24px;
+	font-size: 14px;
+
+}
+.appdetails-titlediv>table>tbody>tr>td{
+	width:50%;
+}
+#appdetails-apptitle{
+	font-size: 16px;
+	font-weight: bold;
+}
+.appdetails-download{
+	text-align: center;
+	margin:15px 0;
+}
+.appdetails-download-btn{
+	width:80%;
+}
+
+.appdetails-ewmdiv{
+	padding: 0;
+	text-align: center;
+}
+
+.appdetails-ewmdiv{
+	padding: 0;
+	text-align: center;
+}
+
+.appdetails-ewmdiv>img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 5px;
+}
+.appdetails-ewmdiv>font{
+	font-weight: bold;
+}
+
+.appdetails-line{
+	padding: 0;
+	height: 2px;
+	background-color: white;
+	margin: 15px 0;
+}
+
+.appdetails-head{
+
+}
+
+.appdetails-head>font{
+	font-size: 16px;
+	font-weight: bold;
+}
+.appdetails-details{
+	margin-top: 10px;
+}
+
+.appdetails-pic->div{
+	text-align: center;
+	padding-left:25%;
+}
+
+.appdetails-pic->div>img{
+	width:50%;
+	height:auto;
+}
